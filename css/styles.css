@@ -56,12 +56,12 @@ header img {
   top: 0;
 }
 
-/* Show mobile class, hide tablet-desktop, #menu-links class */
+/* Show mobile class, hide tablet-desktop class and menu-links id */
 .mobile {
   display: block;
 }
 
-.tablet-desktop {
+.tablet-desktop, #menu-links {
   display: none;
 }
 
@@ -371,7 +371,7 @@ footer p a {
     margin: 0 auto;
   }
 
-  /*Tablet Viewport Animation*/
+  /*Tablet Viewport: Animation */
   @-webkit-keyframes text-animation {
     0% {
       font-size: 1em;

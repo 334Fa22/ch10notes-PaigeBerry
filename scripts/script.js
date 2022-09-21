@@ -1,7 +1,7 @@
 /*
-Student Name: Paige Berry
+Student Name: Your Name
 File Name: script.js
-Date: September 13, 2022
+Date: Today's Date
 */
 
 //Global Variables
@@ -13,7 +13,8 @@ var descriptionSource = document.getElementById("despsrc");
 function hamburger(){
   var menu = document.getElementById("menu-links");
   var logo = document.getElementById("ffc-logo");
-  if(menu.style.display === "block" && logo.style.display === none){
+
+  if(menu.style.display === "block" && logo.style.display === "none"){
     menu.style.display = "none";
     logo.style.display = "block";
   } else{
@@ -37,8 +38,7 @@ function plank(){
   video.style.display = "block";
   video.load();
 }
-
-//Function to display the mountain climber example video
+//Function to display the mountain climbers example video
 function mountain(){
   videoSource.src = "media/mc.mp4";
   descriptionSource.src = "media/mountain-descriptions.vtt";
@@ -46,7 +46,7 @@ function mountain(){
   video.load();
 }
 
-//Function to display a promo code
+//Function to display a promo cde
 function discount(){
   var promo = document.getElementById("special");
   promo.firstChild.nodeValue = "Promo Code: D25START";
